@@ -3,6 +3,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
+#rules.py
 def compute_ts_stats(df: pd.DataFrame, y_col: str = "qty") -> dict:
     """
     Berechnet einfache statistische Kennzahlen für eine Zeitreihe,

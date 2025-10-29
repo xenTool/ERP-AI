@@ -153,7 +153,7 @@ if uploaded:
                 index=0 if model_rec == "prophet" else 1
             )
 
-            # region Training & Prognose mit AutoML-Fallback
+            # region Training & Prognose
             st.write("### Training & Prognose")
             with st.spinner("Trainiere Modell und erstelle Prognose…"):
                 if automl_on:
